@@ -6,6 +6,8 @@ Timeout period must be no shorter than device boot time.
  
 The timeout value is se in timeout.cfg. Insert only the number of seconds and save it. The timeout value must be set between 10-1270 seconds in 10sec increment (only 10,20,30..1270). If you set 13 seconds you will get error massage. 
 
+Black and red versions of watchdog start counting time form 1 minute. So if you set 10sec it will be 1 min. +10sec (70sec). 
+
 Before you start Whtachdogcontrol enter in watchdogcontrol folder, open terminal and type: 
 
 chmod +x ./*
